@@ -1,1 +1,1 @@
-console.log('hello word');
+console.log('fuck all the word');
