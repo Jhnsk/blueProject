@@ -399,3 +399,18 @@ footer .widget_body{
         height: 90px;
     }
 }
+
+@media(max-width: 1159px){
+    .medicenter_info_content{
+        flex-direction: column;
+    }
+    .medicenter_info_item2{
+        align-self: flex-start;
+    }
+}
+
+@media(max-width: 559px){
+    .widget_body article{
+        min-width: 180px;
+    }
+}
