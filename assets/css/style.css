@@ -46,6 +46,18 @@ nav  a:hover{
     background-color: deepskyblue;
     color: white;
 }
+.burguer{
+    height: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.burguer .barburguer{
+    width: 30px;
+    height: 3px;
+    background-color:#36a9e1;
+}
 #banner{
     display: flex;
     justify-content: center;
@@ -339,6 +351,28 @@ footer .widget_body{
 .tweets_strong{
     color: white;
 }
+
+@media(max-width: 1159px){
+    .medicenter_info_content{
+        flex-direction: column;
+    }
+    .medicenter_info_item2{
+        align-self: flex-start;
+    }
+}
+
+@media(max-width: 959px){
+   article{
+    min-width: 200px;
+   }
+}
+
+@media(max-width: 809px){
+    .departments_banners{
+        flex: 1 1 70px;
+    }
+}
+
 @media(max-width: 800px){
     .banner_headline{
         padding: 20px;
@@ -400,12 +434,16 @@ footer .widget_body{
     }
 }
 
-@media(max-width: 1159px){
-    .medicenter_info_content{
-        flex-direction: column;
+@media(max-width: 693px){
+    .latest_tweets_text{
+        font-size: 13px;
+        line-height: 1.2;
     }
-    .medicenter_info_item2{
-        align-self: flex-start;
+    .latest_post_item .latest_post_text{
+        font-size: 13px;
+    }
+    .fm_1, .fm_2, .fm_3{
+        text-align: center;
     }
 }
 
